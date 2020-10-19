@@ -117,7 +117,6 @@ again tomorrow.  See also: `org-postpone-skip-if-postponed'"
 
   (org-postpone--set-postponed)
 
-  (org-agenda-redo)
   (org-agenda-set-mode-name)
   (message "Task postponed until tomorrow"))
 
